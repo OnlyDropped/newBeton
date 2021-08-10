@@ -448,4 +448,76 @@ body {
   padding: 13px 64px;
   border: 1px solid #333333;
 }
+
+.order {
+  padding: 124px 0 123px;
+}
+
+.order__inner {
+  max-width: 1002px;
+  margin: 0 auto;
+}
+
+.order__title {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.order__subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+  margin-bottom: 40px;
+}
+
+.order__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.order__form-name {
+  height: 34px;
+  width: 300px;
+  padding: 5px;
+  padding-left: 0;
+  border: none;
+  border-bottom: 1px solid #333333;
+  outline: none;
+}
+
+.order__form-btn {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 13px 31px;
+  color: #f2f2f2;
+  background: #ff352b;
+  border: none;
+  margin-bottom: 22px;
+  position: relative;
+}
+
+.order__form-span {
+  position: absolute;
+  border: 1px solid #fed100;
+  width: 250px;
+  height: 50px;
+  left: 10px;
+  top: 10px;
+  z-index: -1;
+}
+
+.order__form-box--label {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.015em;
+  color: #333333;
+  margin-left: 10px;
+}
 /*# sourceMappingURL=style.css.map */
