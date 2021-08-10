@@ -63,15 +63,15 @@
     margin-bottom: 77px;
     cursor: pointer;
     position: relative;
-    &::after {
-      position: absolute;
-      content: "";
-      width: 304px;
-      height: 60px;
-      border: 2px solid #f2f2f2;
-      top: 10px;
-      left: 10px;
-    }
+  }
+  &__info-span {
+    position: absolute;
+    border: 2px solid #f2f2f2;
+    width: 304px;
+    height: 60px;
+    top: 10px;
+    left: 10px;
+    z-index: 0;
   }
   &__list {
     display: flex;
@@ -325,6 +325,55 @@
     letter-spacing: 0.015em;
     color: #333333;
     margin-left: 10px;
+  }
+}
+.map-contact {
+  background-image: url("../img/map-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: inherit;
+  padding: 162px 0 178px;
+  &__info {
+    width: 368px;
+    background-color: #ffffff;
+    padding: 40px 40px 40px 35px;
+    margin-left: 137px;
+  }
+  &__info-logo {
+    margin-bottom: 40px;
+  }
+  &__list {
+    margin-bottom: 54px;
+  }
+  &__list-item,
+  &__list-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #333333;
+    margin-bottom: 20px;
+  }
+  &__list-item {
+    padding-left: 29px;
+    position: relative;
+    &::before {
+      position: absolute;
+      content: url("../img/checkIcon.svg");
+      left: 0px;
+    }
+  }
+  &__list-mail {
+    border-bottom: 1px solid #333333;
+  }
+  &__list-item:last-child {
+    margin-bottom: 0px;
+  }
+  &__social {
+    display: flex;
+    justify-content: flex-end;
+  }
+  &__social-icon + .map-contact__social-icon {
+    margin-left: 25px;
   }
 }
 @import "media";

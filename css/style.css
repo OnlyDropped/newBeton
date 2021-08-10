@@ -176,14 +176,14 @@ body {
   position: relative;
 }
 
-.header-main__info-btn::after {
+.header-main__info-span {
   position: absolute;
-  content: "";
+  border: 2px solid #f2f2f2;
   width: 304px;
   height: 60px;
-  border: 2px solid #f2f2f2;
   top: 10px;
   left: 10px;
+  z-index: 0;
 }
 
 .header-main__list {
@@ -519,5 +519,68 @@ body {
   letter-spacing: 0.015em;
   color: #333333;
   margin-left: 10px;
+}
+
+.map-contact {
+  background-image: url("../img/map-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: inherit;
+  padding: 162px 0 178px;
+}
+
+.map-contact__info {
+  width: 368px;
+  background-color: #ffffff;
+  padding: 40px 40px 40px 35px;
+  margin-left: 137px;
+}
+
+.map-contact__info-logo {
+  margin-bottom: 40px;
+}
+
+.map-contact__list {
+  margin-bottom: 54px;
+}
+
+.map-contact__list-item, .map-contact__list-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.map-contact__list-item {
+  padding-left: 29px;
+  position: relative;
+}
+
+.map-contact__list-item::before {
+  position: absolute;
+  content: url("../img/checkIcon.svg");
+  left: 0px;
+}
+
+.map-contact__list-mail {
+  border-bottom: 1px solid #333333;
+}
+
+.map-contact__list-item:last-child {
+  margin-bottom: 0px;
+}
+
+.map-contact__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.map-contact__social-icon + .map-contact__social-icon {
+  margin-left: 25px;
 }
 /*# sourceMappingURL=style.css.map */
