@@ -74,13 +74,22 @@ a {
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .container {
   max-width: 1335px;
   padding: 0px 15px;
   margin: 0 auto;
+}
+
+.title {
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 37px;
+  color: #333333;
+  text-align: center;
 }
 
 .header {
@@ -238,5 +247,58 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.how-it-work {
+  padding: 95px 0 45px;
+}
+
+.how-it-work__title {
+  margin-bottom: 60px;
+}
+
+.how-it-work__box {
+  max-width: 1106px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  row-gap: 50px;
+  -webkit-column-gap: 100px;
+          column-gap: 100px;
+}
+
+.how-it-work__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #333333;
+  width: 45%;
+}
+
+.how-it-work__card-span {
+  display: block;
+  font-weight: 300;
+  font-size: 50px;
+  line-height: 61px;
+  margin-right: 40px;
+}
+
+.how-it-work__card-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 15px;
+}
+
+.how-it-work__card-subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
 }
 /*# sourceMappingURL=style.css.map */

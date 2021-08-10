@@ -1,8 +1,16 @@
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
-.container{
+.container {
   max-width: 1335px;
   padding: 0px 15px;
   margin: 0 auto;
+}
+.title {
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 37px;
+  color: #333333;
+  text-align: center;
 }
