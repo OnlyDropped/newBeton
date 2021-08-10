@@ -2,9 +2,9 @@ $(function () {
 
   $(".star").rateYo({
     rating: 5,
-    starWidth: "16px",
-    normalFill: "#ececec",
-    ratedFill: "#ffb400"
+    starWidth: "15px",
+    normalFill: "#FF352B",
+    ratedFill: "#FF352B"
   });
   //  $('.header__select').styler();
   //  $('.footer__content-select').styler();

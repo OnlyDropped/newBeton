@@ -375,7 +375,77 @@ body {
   line-height: 24px;
   padding: 14px 77px;
   border: none;
-  background-color: #FED100;
+  background-color: #fed100;
   cursor: pointer;
+}
+
+.review {
+  padding: 100px 0 94px;
+  background-color: #FED100;
+}
+
+.review__title {
+  margin-bottom: 60px;
+}
+
+.review__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  row-gap: 20px;
+  margin-bottom: 59px;
+  color: #333333;
+}
+
+.review__card-name {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 10px;
+}
+
+.review__card-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 19px;
+}
+
+.review__card-span {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  margin-right: 10px;
+}
+
+.review__card-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  margin-bottom: 18px;
+}
+
+.review__card-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+  border-bottom: 1px solid #333333;
+}
+
+.review__btn {
+  display: block;
+  margin: 0 auto;
+  background-color: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #333333;
+  padding: 13px 64px;
+  border: 1px solid #333333;
 }
 /*# sourceMappingURL=style.css.map */
