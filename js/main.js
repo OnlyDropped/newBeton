@@ -32,8 +32,8 @@ $(function () {
   //    ]
   //  });
   $('.slider-inner').slick({
-    //autoplay: true,
-    //autoplaySpeed: 2000,
+    autoplay: true,
+    autoplaySpeed: 2000,
     dots: false,
     prevArrow: '<button type="button" class="slick-prev slick-prev__left"><img src="img/arrow-left.svg" alt=""></button>',
     nextArrow: '<button type="button" class="slick-next"><img src="img/arrow-right.svg" alt=""></button>'
