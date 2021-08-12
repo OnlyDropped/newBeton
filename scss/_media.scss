@@ -44,4 +44,34 @@
       transform: translateY(-50%);
     }
   }
+  .title {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .how-it-work {
+    padding: 40px 0px;
+    &__title {
+      margin-bottom: 40px;
+    }
+    &__box {
+      flex-direction: column;
+      row-gap: 25px;
+    }
+    &__card{
+      width: 100%;
+    }
+    &__card-span {
+      font-size: 50px;
+      line-height: 61px;
+      margin-right: 29px;
+    }
+    &__card-title {
+      font-size: 16px;
+      line-height: 129.9%;
+      margin-bottom: 0px;
+    }
+    &__card-subtitle {
+      display: none;
+    }
+  }
 }
