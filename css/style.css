@@ -379,6 +379,132 @@ body {
   cursor: pointer;
 }
 
+.slider {
+  padding: 35px 0 46px;
+}
+
+.slider__title {
+  margin-bottom: 15px;
+}
+
+.slider__subtitle {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #333333;
+  margin-bottom: 60px;
+}
+
+.slider__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 47px;
+}
+
+.slider__list-item + .slider__list-item {
+  margin-left: 19px;
+}
+
+.slider__list-link {
+  padding: 13px 56px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #333333;
+  border: 1px solid #ebebeb;
+  -webkit-transition: all 0.7s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  transition: all 0.7s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+.slider__list-link:hover {
+  border: 1px solid #fed100;
+}
+
+.slider-inner {
+  color: #333333;
+}
+
+.slider-inner__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 149px;
+  padding-right: 154px;
+}
+
+.slider-inner__title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 37px;
+}
+
+.slider-inner__list {
+  margin-bottom: 35px;
+}
+
+.slider-inner__list-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  margin-bottom: 28px;
+  padding-left: 30px;
+  position: relative;
+}
+
+.slider-inner__list-item::before {
+  position: absolute;
+  content: url("../img/checkIcon-slider.svg");
+  left: 1px;
+}
+
+.slider-inner__list-item:last-child {
+  margin-bottom: 0;
+}
+
+.slider-inner__btn {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 13px 79px;
+  color: #333333;
+  background: #fed100;
+  border: none;
+  cursor: pointer;
+}
+
+.slick-prev,
+.slick-next {
+  border: none;
+  padding: none;
+  background: transparent;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  cursor: pointer;
+  z-index: 11111;
+}
+
+.slick-prev {
+  left: 40px;
+}
+
+.slick-next {
+  right: 40px;
+}
+
 .review {
   padding: 100px 0 94px;
   background-color: #FED100;
