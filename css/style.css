@@ -885,5 +885,44 @@ body {
   .how-it-work__card-subtitle {
     display: none;
   }
+  .price {
+    padding: 50px 0;
+    background: #f8fbff;
+  }
+  .price__title {
+    margin-bottom: 40px;
+  }
+  .price__subtitle {
+    display: none;
+  }
+  .price__cards {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 20px;
+  }
+  .price__card {
+    width: 100%;
+    padding: 15px 0;
+  }
+  .price__card-title {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 24px;
+  }
+  .price__card-item {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 15px;
+  }
+  .price__card-price {
+    font-size: 30px;
+    line-height: 37px;
+    margin-bottom: 50px;
+  }
+  .price__card-btn {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
