@@ -32,11 +32,25 @@ $(function () {
   //    ]
   //  });
   $('.slider-inner').slick({
-    autoplay: true,
-    autoplaySpeed: 2000,
+    //autoplay: true,
+    //autoplaySpeed: 2000,
     dots: false,
     prevArrow: '<button type="button" class="slick-prev slick-prev__left"><img src="img/arrow-left.svg" alt=""></button>',
-    nextArrow: '<button type="button" class="slick-next"><img src="img/arrow-right.svg" alt=""></button>'
+    nextArrow: '<button type="button" class="slick-next"><img src="img/arrow-right.svg" alt=""></button>',
+    responsive: [
+      {
+        breakpoint: 320,
+        settings: {
+          arrows: false,
+          dots: true,
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+      // You can unslick at a given breakpoint now by adding:
+      // settings: "unslick"
+      // instead of a settings object
+    ]
   });
 
 
