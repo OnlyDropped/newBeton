@@ -218,4 +218,30 @@
       line-height: 131.4%;
     }
   }
+  .order {
+    padding: 60px 0 71px;
+    &__title {
+      max-width: 222px;
+      margin: 0 auto 10px;
+      text-align: center;
+    }
+    &__subtitle {
+      font-size: 15px;
+      line-height: 131.4%;
+    }
+    &__form {
+      flex-direction: column;
+    }
+    &__form-name {
+      width: 290px;
+      margin-bottom: 40px;
+    }
+    &__form-span {
+      display: none;
+    }
+    &__form-btn {
+      margin-bottom: 15px;
+      width: 100%;
+    }
+  }
 }
