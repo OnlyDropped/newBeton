@@ -802,6 +802,61 @@ body {
   text-align: center;
 }
 
+@media (max-width: 375px) {
+  .header-nav {
+    padding: 29px 0 16px;
+  }
+  .header-nav__list {
+    display: none;
+  }
+  .header-nav__tel {
+    display: none;
+  }
+  .header-main {
+    background-image: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .header-main__info-title {
+    font-size: 28px;
+    line-height: 126.9%;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  .header-main__info-subtitle {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+  }
+  .header-main__info-img {
+    display: block;
+  }
+  .header-main__circle {
+    display: none;
+  }
+  .header-main__list {
+    display: none;
+  }
+  .header-main__info-span {
+    display: none;
+  }
+  .header-main__info-btn {
+    width: 100%;
+    margin-bottom: 0;
+    font-size: 20px;
+    line-height: 24px;
+    -webkit-transform: translateY(750%);
+            transform: translateY(750%);
+  }
+  .header-main__info-img {
+    margin: 0 auto;
+    -webkit-transform: translateY(-30%);
+            transform: translateY(-30%);
+  }
+}
+
 @media (max-width: 320px) {
   .header-nav {
     padding: 27px 0 17px;
