@@ -244,4 +244,39 @@
       width: 100%;
     }
   }
+  .map-contact {
+    padding: 0px;
+    padding-top: 524px;
+    background-position: center;
+    &__info {
+      padding-top: 46px;
+      padding-bottom: 44px;
+      padding-left: 44px;
+      padding-right: 24px;
+      //background-color: crimson;
+      margin-left: -15px;
+      width: 320px;
+    }
+    &__info-logo {
+      display: none;
+    }
+    &__social {
+      display: none;
+    }
+    &__list {
+      margin-bottom: 0px;
+    }
+    &__list-item {
+      padding-left: 0px;
+      font-size: 15px;
+      line-height: 131.4%;
+      &::before {
+        display: none;
+      }
+    }
+    &__list-link {
+      font-size: 15px;
+      line-height: 131.4%;
+    }
+  }
 }

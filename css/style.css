@@ -1067,5 +1067,40 @@ body {
     margin-bottom: 15px;
     width: 100%;
   }
+  .map-contact {
+    padding: 0px;
+    padding-top: 524px;
+    background-position: center;
+  }
+  .map-contact__info {
+    padding-top: 46px;
+    padding-bottom: 44px;
+    padding-left: 44px;
+    padding-right: 24px;
+    background-color: crimson;
+    margin-left: -15px;
+    width: 320px;
+  }
+  .map-contact__info-logo {
+    display: none;
+  }
+  .map-contact__social {
+    display: none;
+  }
+  .map-contact__list {
+    margin-bottom: 0px;
+  }
+  .map-contact__list-item {
+    padding-left: 0px;
+    font-size: 15px;
+    line-height: 131.4%;
+  }
+  .map-contact__list-item::before {
+    display: none;
+  }
+  .map-contact__list-link {
+    font-size: 15px;
+    line-height: 131.4%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
