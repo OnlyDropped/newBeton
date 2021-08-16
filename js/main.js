@@ -54,5 +54,7 @@ $(function () {
   });
 
 
+  $(".footer__contact-btn").html('Заказать');
+
 
 });
