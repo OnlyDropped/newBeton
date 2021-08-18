@@ -39,6 +39,15 @@ $(function () {
     nextArrow: '<button type="button" class="slick-next"><img src="img/arrow-right.svg" alt=""></button>',
     responsive: [
       {
+        breakpoint: 375,
+        settings: {
+          arrows: false,
+          dots: true
+        }
+      }
+    ],
+    responsive: [
+      {
         breakpoint: 320,
         settings: {
           arrows: false,
@@ -47,9 +56,6 @@ $(function () {
           slidesToScroll: 1
         }
       }
-      // You can unslick at a given breakpoint now by adding:
-      // settings: "unslick"
-      // instead of a settings object
     ]
   });
 
