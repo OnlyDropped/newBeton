@@ -1,8 +1,38 @@
 @media (max-width: 375px) {
   .header-nav {
     padding: 29px 0 16px;
+    &__logo {
+      z-index: 11;
+    }
+    &__btn {
+      display: block;
+      padding: 0px;
+      border: none;
+      background-color: inherit;
+      z-index: 1;
+    }
     &__list {
-      display: none;
+      display: block;
+      position: absolute;
+      background-color: #e4b3e4;
+      left: 0;
+      right: 0;
+      top: 0px;
+      text-align: center;
+      z-index: 1;
+      margin-top: 0px;
+      transform: translateY(-100%);
+      transition: all 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    }
+    &__list--active {
+      transform: translateY(0%);
+    }
+    &__list-item + .header-nav__list-item {
+      margin-left: 0;
+    }
+    &__list-item {
+      padding-top: 20px;
+      padding-bottom: 20px;
     }
     &__tel {
       display: none;

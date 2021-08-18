@@ -63,4 +63,10 @@ $(function () {
   $(".footer__contact-btn").html('Заказать');
 
 
+
+  $(".header-nav__btn").on('click', function () {
+    $(".header-nav__list").toggleClass('header-nav__list--active');
+  });
+
+
 });

@@ -10,6 +10,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  &__btn{
+    display: none;
+  }
   &__list {
     display: flex;
   }
