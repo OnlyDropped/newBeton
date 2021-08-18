@@ -847,8 +847,8 @@ body {
     margin-bottom: 0;
     font-size: 20px;
     line-height: 24px;
-    -webkit-transform: translateY(750%);
-            transform: translateY(750%);
+    -webkit-transform: translateY(780%);
+            transform: translateY(780%);
   }
   .header-main__info-img {
     margin: 0 auto;
