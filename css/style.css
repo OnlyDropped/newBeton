@@ -1006,6 +1006,41 @@ body {
   .order__form-name {
     margin-bottom: 40px;
   }
+  .map-contact {
+    padding: 0px;
+    padding-top: 300px;
+    background-position: top;
+  }
+  .map-contact__info {
+    margin-left: 0;
+    width: 100%;
+    padding-right: 15px;
+  }
+  .footer {
+    padding: 70px 0px;
+  }
+  .footer__inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer__info {
+    text-align: center;
+  }
+  .footer__list {
+    text-align: center;
+  }
+  .footer__social-info {
+    margin-bottom: 30px;
+  }
+  .footer__contact-btn {
+    width: 100%;
+    margin-bottom: 15px;
+  }
 }
 
 @media (max-width: 320px) {

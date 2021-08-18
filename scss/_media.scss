@@ -167,23 +167,53 @@
   }
   .review {
     padding: 40px 0 50px;
-    &__title{
+    &__title {
       margin-bottom: 40px;
     }
     &__inner {
       flex-direction: column;
     }
-    &__btn{
+    &__btn {
       width: 100%;
     }
   }
-  .order{
+  .order {
     padding: 60px 0 71px;
-    &__form{
+    &__form {
       flex-direction: column;
     }
-    &__form-name{
+    &__form-name {
       margin-bottom: 40px;
+    }
+  }
+  .map-contact {
+    padding: 0px;
+    padding-top: 300px;
+    background-position: top;
+    &__info {
+      margin-left: 0;
+      width: 100%;
+      padding-right: 15px;
+    }
+  }
+  .footer {
+    padding: 70px 0px;
+    &__inner {
+      flex-direction: column;
+      align-items: center;
+    }
+    &__info {
+      text-align: center;
+    }
+    &__list {
+      text-align: center;
+    }
+    &__social-info {
+      margin-bottom: 30px;
+    }
+    &__contact-btn {
+      width: 100%;
+      margin-bottom: 15px;
     }
   }
 }
